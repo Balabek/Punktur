@@ -167,8 +167,12 @@ li.nav-item > a:hover:after {
     transform: rotate(-135deg);
 }
 
+.navbar-light .navbar-toggler {border: none !important;}
+.navbar-toggler:focus {box-shadow: none !important;}
 
-
+.dimmer {
+    filter: brightness(0.2);
+}
 
 
 /* ============= */
@@ -177,7 +181,7 @@ li.nav-item > a:hover:after {
 
 .punktur_header_area {
     position: relative;
-    min-height: 800px;
+    min-height: 710px;
     height: auto;
     width: 100%;
     background: url("../img/header_bgd_01.png") center center no-repeat;
@@ -270,7 +274,7 @@ button.explore_more_cta_btn:hover {
     height: 490px;
     width: 100%;
     left: -40px;
-    bottom: -50px;
+    bottom: -130px;
     background: url("../img/ntwrk.png") no-repeat;
     background-size: contain;
 }
@@ -280,7 +284,6 @@ ul.header_vertical_socials {
     z-index: 14;
     right: 80px;
     top: 40%;
-
 }
 
 ul.header_vertical_socials li {
@@ -350,7 +353,7 @@ img.secondary_image {
     position: absolute;
     z-index: 6;
     height: 137px;
-    width: 138px;
+    width: 137px;
     background: #D8D8D8;
     box-shadow: 0 6px 105px 0 rgba(136,136,136,0.50);
     border-radius: 2px;
@@ -583,7 +586,7 @@ article.subtitle_text p {
 
 .advantages_holder {
     width: 100%;
-    display: flex;
+    display: inline-flex;
     align-self: center;
     margin-top: 55px;
     padding-top: 36px;
@@ -758,6 +761,15 @@ hr.branch_separator {
     display: flex;
     align-items: center;
     padding-right: 5%;
+}
+
+article.partner_text_area p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    padding-right: 50px;
 }
 
 .name_and_role_holder {
@@ -1016,8 +1028,46 @@ hr.footer_separator {
     background: linear-gradient(90deg, rgba(238,238,238,0.03545168067226889) 0%, rgba(238,238,238,1) 50%, rgba(238,238,238,0.038252801120448154) 100%);
 }
 
+.footer_bottomnotes {
+    text-align: center;
+    display: flex;
+    padding-top: 45px;
+}
 
+.footer_bottomnotes_2 {
+    text-align: center;
+    display: flex;
+    padding-top: 12px;
+}
 
+ul.footer_socials {
+    display: contents;
+    clear: both;
+}
+
+ul.footer_socials li {
+    float: left;
+    list-style-type: none;
+    margin-right: 12px;
+}
+
+ul.footer_socials li a {
+    font-size: 1.6rem;
+    color: #98BFDA;
+    transition: all 0.4s ease-in-out;
+}
+
+ul.footer_socials li a:hover {
+    color: #f5f5f5;
+}
+
+.bottomnote {
+    display: block;
+    font-size: 0.89rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
 
 
 

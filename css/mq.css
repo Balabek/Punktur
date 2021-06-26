@@ -2,3 +2,242 @@
 🅼🅴🅳🅸🅰 🆀🆄🅴🆁🅸🅴🆂
 */
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Navbar ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    li.nav-item a {font-size: 0.88rem;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Header ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1066px){
+    .h_banner h1 {font-size: 3.8rem;}
+    .h_banner h2 {font-size: 1.2rem;}
+    .ntwrk_abstract {opacity: 0.4;}
+    ul.header_vertical_socials {right: 22px;}
+}
+
+@media screen and (max-width: 991px){
+    .punktur_header_area {min-height: 650px;}
+    .h_banner {top: 220px;}
+}
+
+@media screen and (max-width: 490px){
+    .h_banner h1 {font-size: 3.3rem;}
+    .h_banner h2 {font-size: 1rem;}
+}
+
+@media screen and (max-width: 390px){
+    .h_banner h1 {font-size: 3rem;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Das Unternehmen ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    .company_imagery_holder {padding-left: 0;}
+    img.secondary_image {right: 6%;}
+    .company_textual_holder {padding-top: 50px;}
+}
+
+@media screen and (max-width: 1070px){
+    .company_imagery_holder {padding-left: 22px;}
+}
+
+@media screen and (max-width: 603px){
+    .deco_rect_1 {left: 20px;}
+}
+
+@media screen and (max-width: 460px){
+    article.about_text_area p {padding: 0;}
+    .company_textual_holder {padding-left: 18px; padding-right: 18px;}
+    img.main_image {width: 325px; height: 325px;}
+    img.secondary_image {width: 100px; height: 100px;}
+    .company_area {padding-top: 38px;}
+}
+
+@media screen and (max-width: 390px){
+    img.main_image {width: 275px; height: 275px;}
+    img.secondary_image {width: 80px; height: 80px;}
+}
+
+@media screen and (max-width: 340px){
+    img.main_image {width: 255px; height: 255px;}
+    img.secondary_image {width: 50px; height: 50px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Kompetenzen ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    h3.card_ttl {font-size: 1.5rem;}
+    h4.card_subttl {font-size: 1rem;}
+    p.card_info {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 991px){
+    h3.card_ttl {font-size: 3rem;}
+    h4.card_subttl {font-size: 1.3rem;}
+    p.card_info {font-size: 1rem;}
+    .competence_card {margin-bottom: 38px;}
+    .artificial_gap {height: 48px;}
+}
+
+@media screen and (max-width: 490px){
+    h3.card_ttl {font-size: 1.7rem;}
+    h4.card_subttl {font-size: 1rem;}
+    p.card_info {font-size: 0.9rem;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Fragen ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 350px){
+    h2.section_title {font-size: 2.2rem;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Warum ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    h4.adv_title {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 991px){
+    h4.adv_title {font-size: 0.9rem;}
+
+}
+
+@media screen and (max-width: 767px){
+    h4.adv_title {font-size: 1.2rem;}
+    .advantages_holder {display: block; margin-top: 18px;}
+    .warum_advantage {margin-bottom: 70px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Branchen ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    .hidden_branch_details p {font-size: 0.88rem;}
+}
+
+@media screen and (max-width: 991px){
+    .branchen_holder {display: block; padding-top: 32px;}
+    .branch {margin-bottom: 38px;}
+    .hidden_branch_details p {font-size: 0.94rem;}
+}
+
+@media screen and (max-width: 574px){
+    .branchen_holder {padding-left: 22px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Partner ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    .partner_details_holder {display: block;}
+    article.partner_text_area p {padding-right: 0; text-align: center;}
+    .partner_info_holder {padding-right: 0;}
+    .punktur_form {top: 62%; height: 510px;}
+    textarea.punkur_txt {height: 132px;}
+}
+
+@media screen and (max-width: 767px){
+    .punktur_form {width: 93%;}
+}
+
+@media screen and (max-width: 520px){
+    .punktur_form {top: 66%;}
+}
+
+@media screen and (max-width: 430px) {
+    .partner_area {min-height: 1100px;}
+}
+
+@media screen and (max-width: 384px) {
+    .partner_area {min-height: 1160px;}
+    .punktur_form {height: 525px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Footer ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    img.footer_logo {height: 20px; margin-bottom: 32px;}
+    .footer_inner_box {display: block;}
+    .f_links {display: inline-block; text-align: center; width: 100%;}
+    .f_communication {padding-left: 0; text-align: center; display: inline-block; width: 100%;}
+    hr.footer_separator {margin-top: 25px;}
+}
+
+@media screen and (max-width: 767px){
+    .footer_logo_holder {margin: 0 auto;}
+    img.footer_logo {height: 28px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
