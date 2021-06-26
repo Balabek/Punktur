@@ -11,7 +11,11 @@
 }
 
 @media screen and (max-width: 991px){
-    li.nav-item a {font-size: 1rem;}
+    li.nav-item a {font-size: 1.4rem;}
+}
+
+@media screen and (max-width: 420px){
+    li.nav-item a {font-size: 1.2rem;}
 }
 
 
