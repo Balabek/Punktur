@@ -10,6 +10,10 @@
     li.nav-item a {font-size: 0.88rem;}
 }
 
+@media screen and (max-width: 991px){
+    li.nav-item a {font-size: 1rem;}
+}
+
 
 
 
@@ -210,34 +214,3 @@
     img.footer_logo {height: 28px;}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
