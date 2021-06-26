@@ -40,6 +40,7 @@
 @media screen and (max-width: 490px){
     .h_banner h1 {font-size: 3.3rem;}
     .h_banner h2 {font-size: 1rem;}
+    ul.header_vertical_socials {display: none;}
 }
 
 @media screen and (max-width: 390px){

@@ -227,6 +227,7 @@ hr.tagline_separator {
     margin-bottom: 20px;
     display: block;
     z-index: 2;
+    opacity: 0.8;
     background: rgb(82,222,229);
     background: linear-gradient(90deg, rgba(82,222,229,0.03545168067226889) 0%, rgba(82,222,229,1) 50%, rgba(82,222,229,0.04385504201680668) 100%);
 }

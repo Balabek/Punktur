@@ -12,6 +12,12 @@ $(document).ready(function() {
         $('.punktur_header_area').toggleClass('dimmer');
     });
 
+    if ((screen.width > 991)) {
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.punktur_header_area').removeClass('dimmer');
+        });
+    }
+
     $('.navbar-toggler').on('click', function(){
         $('.punktur_header_area').toggleClass('dimmer');
     });
