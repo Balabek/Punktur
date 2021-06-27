@@ -217,5 +217,23 @@
 @media screen and (max-width: 767px){
     .footer_logo_holder {margin: 0 auto;}
     img.footer_logo {height: 28px;}
-
 }
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== 404 ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 650px){
+    h1.notfoundtext {font-size: 6rem;}
+    h3.notfoundsubtext {font-size: 1.6rem;}
+}
+
+@media screen and (max-width: 480px){
+    h1.notfoundtext {font-size: 4rem;}
+    h3.notfoundsubtext {font-size: 1.2rem;}
+}
+
+

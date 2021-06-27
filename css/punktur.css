@@ -921,11 +921,19 @@ button.apply_btn:hover {
     position: relative;
     z-index: 4;
     min-height: 525px;
+    height: auto;
     padding-top: 32px;
     padding-bottom: 32px;
-    height: auto;
     background: url('../img/footer_bgd.png') center center no-repeat;
     background-size: cover;
+}
+
+.punktur_footer.innerfooter {
+    position: relative;
+    z-index: 4;
+    min-height: 445px !important;
+    padding-top: 32px;
+    height: auto;
 }
 
 .footer_inner_box {
@@ -1073,19 +1081,117 @@ ul.footer_socials li a:hover {
 
 
 
+/* ============= */
+/* =========== DATENSCHUTZ & SIMILAR TEXTUAL PAGES =========== */
+/* ============= */
+
+.general_documental_page_main_area {
+    min-height: 500px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 55px;
+    background: #f8f8f8;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+article.documental_text_area {
+    padding-top: 16px;
+    margin-bottom: 38px;
+}
+
+article.documental_text_area p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+h2.documental_ttl {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #1E274A;
+    font-size: 2.5rem;
+    margin-bottom: 26px;
+}
+
+h3.documental_subttl {
+    color: #666666;
+    font-size: 2rem;
+    margin-bottom: 2px;
+}
+
+article.documental_text_area p a {
+    color: #5891b8;
+    text-decoration: none;
+    transition: 0.4s all ease;
+}
+
+article.documental_text_area p a:hover {
+    text-decoration: none;
+    color: #98BFDA;
+}
+
+.footer_inner_box.innerpage_footer {
+    margin-top: 80px !important;
+}
 
 
 
 
 
+/* ============= */
+/* =========== 404 =========== */
+/* ============= */
 
+.notfoundbgd {
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 
+.notfound {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("../img/404.png") center center no-repeat;
+    background-size: cover;
+    filter: brightness(99%);
+}
 
+.notfound_banner_holder {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 35vh;
+    z-index: 50;
+}
 
+h1.notfoundtext {
+    font-weight: 700;
+    font-size: 8rem;
+    color: #1E274A;
+    text-align: center;
+}
 
-
-
-
+h3.notfoundsubtext {
+    font-weight: 400;
+    font-size: 3rem;
+    color: #1E274A;
+    text-align: center;
+}
 
 
 
